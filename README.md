@@ -23,6 +23,8 @@ The notebook covers:
 * Support Vector Machines
 * K-Means Clustering
 
+The main dataset used is Fisher's Iris data set
+
 The notebook can be viewed here:
 
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/ShanePAustin/machine-learning-and-statistics/blob/main/scikit-learn.ipynb)
@@ -51,5 +53,29 @@ To run the code locally this repository can be cloned and run using a python IDE
 * Install Jupyter
 * Run in Jupyter notebook
 * Open and Run ```scikit-learn.ipynb``` or ```scipy-stats.ipynb```
+* Once in the notebook, on the menu bar select Kernel and then click on the "Restart and run all" option.
+* When you have finished, close or exit the tab in your browser.
+* Enter "Ctrl + C" in the command prompt to end the jupyter lab session.
 
 ---
+### Requirements
+
+* matplotlib==3.3.2
+* mlxtend==0.19.0
+* numpy==1.21.4
+* pandas==1.1.3
+* scikit_learn==1.0.2
+* scipy==1.5.2
+* seaborn==0.11.0
+* statsmodels==0.12.0
+
+The packages can be installed using ```pip install```
+
+pip install -r requirements.txt
+
+---
+
+### Credits
+
+[Ian McCloughlin](https://github.com/ianmcloughlin/python_anova/blob/main/one_way_anova.ipynb)
+
